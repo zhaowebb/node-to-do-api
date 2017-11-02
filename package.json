@@ -7,15 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/server.js"
   },
-  "engine":{
+  "engine": {
     "node": "8.8.1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "crypto-js": "^3.1.9-1",
     "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "lodash": "^4.17.4",
     "mongodb": "^2.2.5",
-    "mongoose": "^4.5.9"
+    "mongoose": "^4.5.9",
+    "validator": "^9.1.1"
   }
 }
